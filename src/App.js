@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Page deployed from AWS Code pipeline 2.
+          Page deployed from AWS Code pipeline 17 Nov 6.50PM.
         </p>
         <a
           className="App-link"
