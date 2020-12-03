@@ -1,6 +1,6 @@
 version: 0.2
 env:
-  parameter-store:
+  variables:
     REACT_APP_TEST_KEY: "REACT_APP_TEST_KEY"
 phases:
   install:
