@@ -3,7 +3,7 @@ env:
   # variables:
   #   REACT_APP_TEST_KEY: "REACT_APP_TEST_KEY"
   parameter-store:
-    REACT_APP_TEST_KEY: "/CodeBuild/REACT_APP_TEST_KEY"
+    REACT_APP_TEST_KEY: "REACT_APP_TEST_KEY"
 phases:
   install:
     commands:
@@ -20,7 +20,6 @@ phases:
       - yarn
   build:
     commands:
-      - echo "REACT_APP_TEST_KEY = ${REACT_APP_TEST_KEY}"
       - echo Building Application In-Progress
       - yarn build
 artifacts:
