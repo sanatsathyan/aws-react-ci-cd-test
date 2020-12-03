@@ -3,7 +3,7 @@ env:
   # variables:
   #   REACT_APP_TEST_KEY: "REACT_APP_TEST_VALUE"
   parameter-store:
-    REACT_APP_TEST_KEY: REACT_APP_TEST_VALUE_BUILDSPEC
+    REACT_APP_TEST_KEY: REACT_APP_TEST_KEY
 phases:
   install:
     commands:
@@ -16,6 +16,7 @@ phases:
       - apt install --no-install-recommends yarn
   pre_build:
     commands:
+      - echo "REACT_APP_TEST_KEY = $REACT_APP_TEST_KEY"
       - echo Dependencies Installation In-Progress
       - yarn
   build:
