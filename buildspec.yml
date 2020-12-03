@@ -1,7 +1,7 @@
 version: 0.2
-# env:
-#   parameter-store:
-#     REACT_APP_TEST_KEY: REACT_APP_TEST_KEY
+env:
+  parameter-store:
+    REACT_APP_TEST_KEY: "REACT_APP_TEST_KEY"
 phases:
   install:
     commands:
