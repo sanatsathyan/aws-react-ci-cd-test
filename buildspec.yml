@@ -20,7 +20,7 @@ phases:
       - yarn
   build:
     commands:
-      - echo "REACT_APP_TEST_KEY=${REACT_APP_TEST_KEY}"
+      - echo "REACT_APP_TEST_KEY = ${REACT_APP_TEST_KEY}"
       - echo Building Application In-Progress
       - yarn build
 artifacts:
