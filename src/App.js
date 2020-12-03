@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -7,7 +7,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Page deployed from AWS Code pipeline 17 Nov 6.50PM.
+          Page deployed from AWS Code pipeline, the env value is{" "}
+          {process.env.TEST_KEY}.
         </p>
         <a
           className="App-link"

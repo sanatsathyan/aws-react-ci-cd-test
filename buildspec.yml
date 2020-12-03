@@ -1,5 +1,7 @@
 version: 0.2
-
+env:
+  parameter-store:
+    TEST_KEY: TEST_KEY_PARAMETER
 phases:
   install:
     commands:
