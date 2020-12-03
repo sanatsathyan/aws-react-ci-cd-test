@@ -3,7 +3,7 @@ env:
   # variables:
   #   REACT_APP_TEST_KEY: "REACT_APP_TEST_VALUE"
   parameter-store:
-    REACT_APP_TEST_KEY: REACT_APP_TEST_KEY
+    REACT_APP_TEST_KEY: REACT_APP_TEST_VALUE_BUILDSPEC
 phases:
   install:
     commands:
