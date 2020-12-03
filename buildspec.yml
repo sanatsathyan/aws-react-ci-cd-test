@@ -16,7 +16,6 @@ phases:
       - apt install --no-install-recommends yarn
   pre_build:
     commands:
-      - echo "REACT_APP_TEST_KEY = $REACT_APP_TEST_KEY"
       - echo Dependencies Installation In-Progress
       - yarn
   build:
