@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Page deployed from AWS Code pipeline, the env value is{" "}
+          Page deployed from AWS Code pipeline, the env variable value is{" "}
           {process.env.REACT_APP_TEST_KEY}.
         </p>
         <a
