@@ -11,7 +11,12 @@ function App() {
           Page deployed from AWS Code pipeline, the environment variable value
           is {process.env.REACT_APP_TEST_KEY}.
         </p>
-        <p>Cookie domain is {process.env.REACT_APP_COOKIE_DOMAIN}.</p>
+        <p>
+          Cookie domain is{" "}
+          {process.env.REACT_APP_BOOLEAN_VALUE &&
+            process.env.REACT_APP_BOOLEAN_VALUE.toLocaleLowerCase() === "true"}
+          .
+        </p>
         <p>AWS Test Key is {process.env.AWS_TEST_KEY}.</p>
         <a
           className="App-link"
