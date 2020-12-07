@@ -3,6 +3,7 @@ env:
   parameter-store:
     REACT_APP_TEST_KEY: REACT_APP_TEST_KEY
     REACT_APP_COOKIE_DOMAIN: COOKIE_DOMAIN
+    WITHOUT_REACT_APP: WITHOUT_REACT_APP
 phases:
   install:
     commands:
