@@ -11,6 +11,7 @@ function App() {
           Page deployed from AWS Code pipeline, the environment variable value
           is {process.env.REACT_APP_TEST_KEY}.
         </p>
+        <p>Cookie domain is {process.env.REACT_APP_COOKIE_DOMAIN}.</p>
         <a
           className="App-link"
           href="https://reactjs.org"

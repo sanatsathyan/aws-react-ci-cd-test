@@ -1,9 +1,8 @@
 version: 0.2
 env:
-  # variables:
-  #   REACT_APP_TEST_KEY: "REACT_APP_TEST_VALUE"
   parameter-store:
     REACT_APP_TEST_KEY: REACT_APP_TEST_KEY
+    REACT_APP_COOKIE_DOMAIN: COOKIE_DOMAIN
 phases:
   install:
     commands:
