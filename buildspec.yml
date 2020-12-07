@@ -20,7 +20,7 @@ phases:
       - yarn
   build:
     commands:
-      - export TEST_KEY = $AWS_TEST_KEY
+      - export TEST_KEY_TEST = $AWS_TEST_KEY
       - echo Building Application In-Progress
       - yarn build
 artifacts:
