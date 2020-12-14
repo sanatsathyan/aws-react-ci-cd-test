@@ -2,7 +2,6 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  console.log(process.env);
   return (
     <div className="App">
       <header className="App-header">
@@ -14,7 +13,9 @@ function App() {
         <p>
           Cookie domain is{" "}
           {process.env.REACT_APP_BOOLEAN_VALUE &&
-            process.env.REACT_APP_BOOLEAN_VALUE.toLocaleLowerCase() === "true"}
+          process.env.REACT_APP_BOOLEAN_VALUE.toLocaleLowerCase() === "true"
+            ? true
+            : false}
           .
         </p>
         <p>AWS Test Key is {process.env.AWS_TEST_KEY}.</p>

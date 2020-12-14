@@ -21,6 +21,8 @@ phases:
       - yarn
   build:
     commands:
+      - echo test running
+      - yarn test
       - echo Building Application In-Progress
       - yarn build
 artifacts:
